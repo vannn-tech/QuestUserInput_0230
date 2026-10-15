@@ -17,6 +17,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             QuestUserInput_0230Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
+                    // Memanggil fungsi FormDataDiri dari file Act4.kt
                     FormDataDiri(modifier = Modifier.padding(innerPadding))
                 }
             }
